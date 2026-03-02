@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>SolarMan OpenApi</title>
+<style>
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 860px; margin: 40px auto; padding: 0 24px; background: #f6f8fa; color: #262626; }
+h1 { border-bottom: 2px solid #52c41a; padding-bottom: 10px; }
+.info { background: #fff; padding: 14px 18px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 1px 3px rgba(0,0,0,.06); font-size: 14px; }
+.toc { list-style: none; padding: 0; }
+.toc li { margin: 2px 0; }
+.toc .l0 { font-weight: 600; margin-top: 16px; font-size: 15px; }
+.toc .l1 { padding-left: 24px; font-size: 14px; }
+.toc a { color: #096dd9; text-decoration: none; padding: 2px 6px; display: inline-block; border-radius: 3px; }
+.toc a:hover { background: #e6f7ff; }
+</style>
+</head>
+<body>
+<h1>SolarMan OpenApi</h1>
+<div class="info">
+<p>Source: <a href="https://www.yuque.com/vwyy8s/openapi" target="_blank">https://www.yuque.com/vwyy8s/openapi</a> · 56 pages</p>
+</div>
+<ul class="toc">
+<li class="l0"><a href="01_版本.html">Version</a></li>
+<li class="l0"><a href="02_说明及快速指南.html">Instructions and Quick Guide</a></li>
+<li class="l0"><a href="03_常见问题FAQ.html">FAQ</a></li>
+<li class="l0"><a href="04_账号接口.html">Account interface</a></li>
+<li class="l1"><a href="05_2.1获取Token.html">2.1 Obtain Token</a></li>
+<li class="l1"><a href="06_2.2账号商家关系.html">2.2 Account merchant relationship</a></li>
+<li class="l1"><a href="07_2.3账号内权限.html">2.3 Permissions within the account</a></li>
+<li class="l1"><a href="08_2.4注册帐号.html">2.4 Register an account</a></li>
+<li class="l1"><a href="09_2.5获取账号信息.html">2.5 Obtain account information</a></li>
+<li class="l1"><a href="10_2.6修改账号信息.html">2.6 Modify account information</a></li>
+<li class="l1"><a href="11_2.7修改绑定信息.html">2.7 Modify binding information</a></li>
+<li class="l1"><a href="12_2.8重置密码.html">2.8 Reset password</a></li>
+<li class="l1"><a href="13_2.9修改密码.html">2.9 Change password</a></li>
+<li class="l1"><a href="14_2.10 账号注销校验.html">2.10 Account cancellation verification</a></li>
+<li class="l1"><a href="15_2.11 账号注销.html">2.11 Account cancellation</a></li>
+<li class="l0"><a href="16_设备接口Device interface.html">Device interfaceDevice interface</a></li>
+<li class="l1"><a href="17_3.1设备报警明细.html">3.1 Equipment alarm details</a></li>
+<li class="l1"><a href="18_3.2设备报警列表.html">3.2 Equipment alarm list</a></li>
+<li class="l1"><a href="19_3.3 设备实时数据 Real-time device data.html">3.3 Real-time device data Real-time device data</a></li>
+<li class="l1"><a href="20_3.4设备历史数据.html">3.4 Equipment historical data</a></li>
+<li class="l1"><a href="21_3.5 设备库-设备列表.html">3.5 Device Library-Device List</a></li>
+<li class="l1"><a href="22_3.6获取网关设备SIM卡信息.html">3.6 Obtain gateway device SIM card information</a></li>
+<li class="l1"><a href="23_3.8设备通讯关系.html">3.8 Device communication relationship</a></li>
+<li class="l1"><a href="24_3.9自定义指令（指令透传）Custom commands.html">3.9 Custom commands (command transparent transmission) Custom commands</a></li>
+<li class="l0"><a href="25_电站接口.html">Power station interface</a></li>
+<li class="l1"><a href="26_4.1查询电站基础信息.html">4.1 Query basic information of power station</a></li>
+<li class="l1"><a href="27_4.2获取电站设备列表.html">4.2 Obtain the list of power station equipment</a></li>
+<li class="l1"><a href="28_4.3获取电站历史数据.html">4.3 Obtain historical data of power station</a></li>
+<li class="l1"><a href="29_4.4获取账号下电站列表.html">4.4 Obtain the list of power stations under the account</a></li>
+<li class="l1"><a href="30_4.5获取电站实时数据.html">4.5 Obtain real-time data of power station</a></li>
+<li class="l1"><a href="31_4.6获取电站操作权限.html">4.6 Obtain power station operation permissions</a></li>
+<li class="l1"><a href="32_4.7获取电站报警列表.html">4.7 Obtain the power station alarm list</a></li>
+<li class="l1"><a href="33_4.8创建电站.html">4.8 Create a power station</a></li>
+<li class="l1"><a href="34_4.9修改电站.html">4.9 Modify the power station</a></li>
+<li class="l1"><a href="35_4.10删除电站.html">4.10 Delete a power station</a></li>
+<li class="l1"><a href="36_4.11累计发电量的计算方法设置.html">4.11 Calculation method settings for cumulative power generation</a></li>
+<li class="l1"><a href="37_4.12设置偏移量.html">4.12 Set offset</a></li>
+<li class="l1"><a href="38_4.13添加网关（采集器或DTU）.html">4.13 Add gateway (collector or DTU)</a></li>
+<li class="l1"><a href="39_4.14删除设备.html">4.14Delete device</a></li>
+<li class="l1"><a href="40_4.15 获取电站下电表详情.html">4.15 Obtain the power meter details of the power station</a></li>
+<li class="l1"><a href="41_4.16电站报警列表 V2.0.html">4.16 Power station alarm list V2.0</a></li>
+<li class="l1"><a href="42_4.17 查询电站实时天气.html">4.17 Query the real-time weather of the power station</a></li>
+<li class="l1"><a href="43_4.18 查询实时天气.html">4.18 Query real-time weather</a></li>
+<li class="l1"><a href="44_4.19 查询未来天气.html">4.19 Query future weather</a></li>
+<li class="l1"><a href="45_4.20 批量查询电站设备列表（已禁用）.html">4.20 Batch query of power plant equipment list (disabled)</a></li>
+<li class="l0"><a href="46_公共信息.html">public information</a></li>
+<li class="l1"><a href="47_5.1生成验证码.html">5.1 Generate verification code</a></li>
+<li class="l1"><a href="48_6 响应状态值说明.html">6 Response status value description</a></li>
+<li class="l1"><a href="49_7 枚举类型说明.html">7 Enumeration type description</a></li>
+<li class="l1"><a href="50_8 字典信息-时区.html">8 Dictionary information-time zone</a></li>
+<li class="l1"><a href="51_9 字典信息-货币.html">9 Dictionary Information - Currency</a></li>
+<li class="l1"><a href="52_11 字典信息-手机号前缀.html">11 Dictionary information-mobile phone number prefix</a></li>
+<li class="l1"><a href="53_10 字典信息-区域.html">10 Dictionary Information-Region</a></li>
+<li class="l1"><a href="54_12 账号与能力.html">12 Accounts and abilities</a></li>
+<li class="l1"><a href="55_13 查询APPID剩余可调用次数.html">13 Query the remaining call times of APPID</a></li>
+<li class="l1"><a href="56_14 CRC32.html">14 CRC32</a></li>
+</ul>
+</body>
+</html>
